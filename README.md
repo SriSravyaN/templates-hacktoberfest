@@ -2,7 +2,7 @@
 
 # TEMPLATES AND COMPONENTS IN ANY LANG!
 
-## This is an Open Repository For Students to Contribute code in Hackoctober in different Languages and Tech
+## This is an Open Repository For Students to Contribute code in Hackoctoberfest in different Languages and Tech
  meant for everyone to create code and learn to contribute to open source.
 
 <br/>
