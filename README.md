@@ -52,7 +52,7 @@ __________________________________________________________________
 <!-- Contributors:List-->
 <table>
     <tr>       
-      <td align="center"><a href="https://github.com/SriSravyaN"><img src="img/image.png" width="100px;" alt="Sravya"/>
+      <td align="center"><a href="https://github.com/SriSravyaN"><img src="img/image.jpg" width="100px;" alt="Sravya"/>
       <br /><sub><b>Sri Sravya N</b></br> <b>Owner</b></sub></a></td>
      </tr>
 </table>
