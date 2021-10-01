@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Git CheatSheet</title>
+  </head>
+  <body>
+    <!-- Title here  -->
+    <div class="title">
+      <div class="header">
+        <h3>Welcome, This Git CheatSheet is for You!</h3>
+      </div>
+    </div>
+
+    <!-- table starts here  -->
+<div class="table_container">
+    <table class="table table-bordered">
+      <thead class="thead-dark ">
+        <tr>
+          <th scope="col">Command</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr >
+          <td>git init</td>
+          <td>The first step is to initialize a new Git repo locally in your project root. You can do so with the command below</td>
+        </tr>
+        <tr>
+          <td>git add .</td>
+          <td>To add all files in your project to the staging area</td>
+        </tr>
+        <tr>
+          <td>git status</td>
+          <td>Shows the status of the current repository including staged, unstaged, and untracked files</td>
+        </tr>
+        <tr>
+          <td>git commit -m "your commit message here"</td>
+          <td>A commit message is made up of a short summary of changes. This command is used to commit your changes</td>
+        </tr>
+        <tr>
+          <td>git commit -a -m"your commit message here"</td>
+          <td>You can add and commit tracked files with a single command by using the -a and -m options</td>
+        </tr>
+        <tr>
+          <td>git log</td>
+          <td>This command shows the commit history for the current repository</td>
+        </tr>
+        <tr>
+          <td>git branch</td>
+          <td>You can view all created branches using the git branch command. Highlights current branch with an asterisk</td>
+        </tr>
+        <tr>
+          <td>git checkout -b branch_name</td>
+          <td>In a single command, you can create and switch to a new branch right away</td>
+        </tr>
+        <tr>
+          <td>git branch -d branch_name</td>
+          <td>When you are done working with a branch and have merged it, you can delete it using this command</td>
+        </tr>
+        <tr>
+          <td>git merge branch_name</td>
+          <td>To merge the history of the branch you are currently in with the branch_name</td>
+        </tr>
+        <tr>
+          <td>git push</td>
+          <td>When all your work is ready to be saved on a remote repository, you can push all changes using the command below</td>
+        </tr>
+        <tr>
+          <td>git pull</td>
+          <td>If other team members are working on your repository, you can retrieve the latest changes made to the remote repository with the command below</td>
+        </tr>
+        <tr>
+          <td>git push -u origin branch_name</td>
+          <td>If you want to push a branch to a remote repository you can use the command below. Just remember to add -u to create the branch upstream</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+    
+  </body>
+</html>
