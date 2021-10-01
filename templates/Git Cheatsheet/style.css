@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    margin-top: 5%;
+}
+
+.table_container{
+    margin: 2% 5%;
+    background-color: rgb(155, 195, 255);
+}
+
+@media only screen and (max-width: 520px) {
+    .header h3{
+       font-size: 120%;
+    }
+
+  }
+
