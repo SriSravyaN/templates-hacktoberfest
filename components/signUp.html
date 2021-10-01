@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #ddd;
+      }
+      .home {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .heading {
+        display: block;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: inline-block;
+        background-image: linear-gradient(to right, #838882, #000000);
+        -webkit-background-clip: text;
+        color: transparent;
+        letter-spacing: 0.2rem;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .card {
+        width: 50vw;
+        display: block;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #ddd;
+      }
+      .button {
+        display: inline-block;
+        background-color: rgb(17, 60, 251);
+        font-size: small;
+        width: 25vw;
+        height: 5vh;
+        margin-top: 1vh;
+      }
+      .button a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <div class="heading">SignUp Form</div>
+      <div class="card">
+        <form action="" method="get" onsubmit="onSubmit()">
+          <label for="email"><b>Email</b></label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Enter Email"
+            name="email"
+            required
+          />
+          <label for="password"><b>Password</b></label>
+          <input
+            id="pw"
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+          <label for="password-repeat"><b>Confirmation Password</b></label>
+          <input
+            id="pw-repeat"
+            type="password"
+            placeholder="Confirmation Password"
+            name="password-repeat"
+            required
+          />
+          <button class="button"><a href="#">Signup?</a></button>
+        </form>
+        <script>
+          console.log("heys");
+          const onSubmit = (e) => {
+            console.log("hey");
+            const password = document.getElementById("pw").value;
+            const passwordRepeat = document.getElementById("pw-repeat").value;
+            if (password === passwordRepeat) {
+              alert("Signed Up successfully");
+            } else {
+              alert("Password did not match");
+            }
+          };
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
