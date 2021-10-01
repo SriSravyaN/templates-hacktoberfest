@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+
+body {
+	background-image: url("img.jpg");
+	background-size: cover;
+  }
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+span {
+	font-size: 100px;
+	padding: 10px;
+	color: rgb(240, 24, 24);
+}
+
+.btn {
+	background: none;
+	outline: none;
+	border: 1px solid rgb(15, 0, 0);
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+}
