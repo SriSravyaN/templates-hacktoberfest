@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: grey;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  z-index: 10;
+  padding: 0 50px;
+  background-color: white;
+}
+.nav-logo img {
+  width: 80px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+  margin: 5px 20px;
+  transition: transform 0.5s ease-in;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+nav ul li:hover {
+  transform: scale(1.2);
+  border-bottom: solid 2px black;
+}
