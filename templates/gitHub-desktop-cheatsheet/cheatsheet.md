@@ -1,6 +1,6 @@
 ## Github Desktop Cheatsheet
 
-Before starting, download [here](https://desktop.github.com/)
+Before starting, download GitHub Desktop [here](https://desktop.github.com/)
 
 1. Fork: Click on fork button.
 
