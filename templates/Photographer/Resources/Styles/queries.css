@@ -1,0 +1,62 @@
+/* CSS QUERIES */
+@media only screen and (max-width: 980px) {
+  .headings {
+    margin-right: 5px;
+  }
+  h1 {
+    color: #fff;
+  }
+  h4 {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+  }
+  /* header {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(100, 100, 100, 0.5)),
+        to(rgba(100, 100, 100, 0.5))
+      ),
+      url("https://images.unsplash.com/photo-1552086231-dde3eb12cf60?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBob3RvZ3JhcGhlcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-image: linear-gradient(
+        rgba(100, 100, 100, 0.5),
+        rgba(100, 100, 100, 0.5)
+      ),
+      url("https://images.unsplash.com/photo-1552086231-dde3eb12cf60?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBob3RvZ3JhcGhlcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+  } */
+}
+@media only screen and (max-width: 800px) {
+  section {
+    padding: 4rem 0;
+  }
+}
+@media only screen and (max-width: 660px) {
+  nav {
+    position: fixed;
+    padding: 0 2rem;
+  }
+  .nav-links {
+    display: none;
+    padding: 2rem 0;
+  }
+  .nav-links li {
+    margin-right: 0;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  nav ul li:hover,
+  nav ul li:active {
+    border-bottom: 0px;
+  }
+  .nav-mobile {
+    display: contents;
+  }
+}
+@media only screen and (max-width: 445px) {
+  h1 {
+    font-size: 3rem;
+  }
+}

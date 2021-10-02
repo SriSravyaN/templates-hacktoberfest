@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Tic Tac Toe Game.">
+        <link rel="stylesheet" type="text/css" href="Vendors/CSS/normalize.css">
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" type="text/css" href="Resources/CSS/Styles.css">
+        <link rel="stylesheet" type="text/css" href="Resources/CSS/queries.css">
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <main>
+            <div class="active-bar">
+                <div class="active-tile active-tile-1 active">X</div>
+                <div class="active-tile active-tile-2">O</div>
+            </div>
+            
+            <div class="board">
+                    <div class="tile tile-1"></div>
+                    <div class="tile tile-2"></div>
+                    <div class="tile tile-3"></div>
+                    <div class="tile tile-4"></div>
+                    <div class="tile tile-5"></div>
+                    <div class="tile tile-6"></div>
+                    <div class="tile tile-7"></div>
+                    <div class="tile tile-8"></div>
+                    <div class="tile tile-9"></div>
+            </div>
+            <button class="replay1">REPLAY</button>
+             <div class="profile">
+                        <div class="details">
+                            <img src="Resources/Images/Kishor_Balgi.jpg" alt="Photo" class="photo">
+                            <h1>Kishor Balgi</h1>
+                        </div>
+                
+                        <div class="social-handles">
+                            <ul>
+                                <li><a href="https://github.com/KishorBalgi" target="_blank"><ion-icon name="logo-github" class="github"></ion-icon></a></li>
+                                <li><a href="https://www.linkedin.com/in/kishor-balgi-1856591b4" target="_blank"><ion-icon name="logo-linkedin" class="linkedin"></ion-icon></a></li>
+                                <li><a href="https://www.instagram.com/kishor_balgi/" target="_blank"><ion-icon name="logo-instagram" class="instagram"></ion-icon></a></li>
+                                <li><a href="https://twitter.com/KishorBalgi" target="_blank"><ion-icon name="logo-twitter" class="twitter"></ion-icon></a></li>
+                            </ul>
+                        </div>
+            </div>
+        </main>
+
+            <div class="modal hidden">
+                <button class="close">&times;</button>
+                <p>Winner is player 1</p>
+                <button class="replay2">REPLAY</button>
+            </div>
+            <div class="overlay hidden"></div>
+       <script src="Resources/JS/script.js"></script>
+    </body>
+</html>

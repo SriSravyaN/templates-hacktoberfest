@@ -1,0 +1,230 @@
+/* CSS Code */
+/* Author: Kishor M Balgi */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: aliceblue;
+  font-family: "New Tegomin", serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  text-rendering: optimizeLegibility;
+}
+/* Heading*/
+h1 {
+  font-size: 50px;
+}
+/* Main */
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 1140px;
+  margin: 0 auto;
+}
+/* Task Input */
+.task-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 15px 15px 30px 15px;
+}
+#task[type="text"],
+.add-me {
+  width: 85%;
+  height: 50px;
+  border: none;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+*:focus {
+  outline: none;
+}
+/* Button */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.add-me {
+  width: 10%;
+  border-radius: 3%;
+  -webkit-transition: background-color 0.2s, -webkit-transform 0.2s;
+  transition: background-color 0.2s, -webkit-transform 0.2s;
+  transition: transform 0.2s, background-color 0.2s;
+  transition: transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+}
+.add-me:hover {
+  background-color: rgb(97, 228, 97);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.check {
+  font-size: 25px;
+  color: green;
+  -webkit-transition: color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.2s, -webkit-transform 0.2s;
+  transition: transform 0.2s, color 0.2s;
+  transition: transform 0.2s, color 0.2s, -webkit-transform 0.2s;
+}
+.check:hover {
+  color: rgb(3, 189, 3);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.delete {
+  font-size: 25px;
+  color: rgb(194, 1, 1);
+  -webkit-transition: color 0.2s, -webkit-transform 0.2s;
+  transition: color 0.2s, -webkit-transform 0.2s;
+  transition: transform 0.2s, color 0.2s;
+  transition: transform 0.2s, color 0.2s, -webkit-transform 0.2s;
+}
+.delete:hover {
+  color: red;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.clear {
+  display: inline-block;
+  width: 20%;
+  background-color: gray;
+  font-weight: bold;
+  border-radius: 3%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  -webkit-transition: background-color 0.2s, -webkit-transform 0.2s;
+  transition: background-color 0.2s, -webkit-transform 0.2s;
+  transition: transform 0.2s, background-color 0.2s;
+  transition: transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+}
+.clear:hover {
+  background-color: rgb(90, 87, 87);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* Task Display */
+.task-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.task-block {
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 5px solid grey;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.task-block p {
+  display: block;
+  width: 90%;
+}
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+/* Profile and Links */
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  z-index: 3;
+  padding: 50px 0 100px 0;
+}
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.photo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  -webkit-transition: width 0.2s, height 0.2s;
+  transition: width 0.2s, height 0.2s;
+}
+h2 {
+  font-size: 100%;
+  color: black;
+  font-family: cursive;
+  margin-left: 15px;
+}
+.social-handles ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 8px 0 0 250px;
+}
+.social-handles ul li {
+  display: inline-block;
+}
+.social-handles li a:link,
+.social-handles li a:visited {
+  color: rgba(21, 21, 21, 0.6);
+  text-decoration: none;
+  -webkit-transition: font-size 0.2s, color 0.2s;
+  transition: font-size 0.2s, color 0.2s;
+}
+.social-handles li a:hover,
+.social-handles li a:active {
+  font-size: 120%;
+}
+.github:hover,
+.github:active {
+  color: #000;
+}
+.linkedin:hover,
+.linkedin:active {
+  color: #007bb6;
+}
+.twitter:hover,
+.twitter:active {
+  color: #00aced;
+}
+.instagram:hover,
+.instagram:active {
+  color: #bc2a8d;
+}

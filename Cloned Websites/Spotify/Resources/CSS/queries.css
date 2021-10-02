@@ -1,0 +1,78 @@
+/*for big tablets of max 1200px*/
+@media only screen and (max-width: 1200px){
+    h1{font-size: 300%;}
+    .row{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .hide{display: none;}
+    
+    .lfooter{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;}
+    
+    .other-links{justify-items: center;}
+    
+    .nav-icon{display: inline-block;}
+    
+    .main__nav{-ms-flex-pack: distribute;justify-content: space-around;}
+    
+    .other-links{padding-top: 30px; -ms-flex-pack: distribute; justify-content: space-around;}
+    
+    .slinks{width: 250px; -ms-flex-pack: distribute; justify-content: space-around;}
+    
+    .panel-content{font-size: 50%;}
+    
+    .main__nav-1{border-right: 0px solid #222326;font-size: 90%;}
+    
+    .main__nav-2{margin-left: 0px;}
+    
+    .main__nav-1 ul,.main__nav-2 ul{display: -webkit-box;display: -ms-flexbox;display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
+    
+    .main__nav-1 li,.main__nav-2 li{padding: 10px 0;}
+}
+
+@media only screen and (max-width: 915px){
+    header{height: 700px;}
+    
+    h1{font-size: 250%;}
+    
+    .title-1{display: none;}
+    
+    .title-2{display: block;}
+    
+    .hero-text-box p{font-size: 14px;}
+}
+
+@media only screen and (max-width: 720px){
+    h1{font-size: 200%;}
+    
+    .main__nav{height: 60px;}
+    
+    .title-2{display: none;}
+    
+    .title-3{display: block;}
+    
+    .box{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
+    
+    .other-links{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+    
+    .list{margin-top: 20px;}
+}
+
+@media only screen and (max-width: 580px){
+    h1{font-size: 140%;}
+    
+    .panel{width: 100%};
+    
+    .box{-webkit-box-align: center;-ms-flex-align: center;align-items: center;}
+    
+    .blinks{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;}
+    
+    .blinks li{padding: 6px 0;}
+}
