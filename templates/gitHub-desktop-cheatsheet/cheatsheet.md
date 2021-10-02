@@ -29,4 +29,15 @@ Before starting, download [here](https://desktop.github.com/)
  
 6. Do the changes you are required to do in the code editor. 
 
-7. Publish branch: This will push the changes you made to github and update your branch. 
+
+
+7. Commit: Commit the changes that you have done to the branch.
+
+
+
+8. Publish branch: This will push the changes you made to github and update your branch. 
+
+
+
+9. Pull Request: This will create a pull request to the main project and the maintainer can now see your changes.
+
