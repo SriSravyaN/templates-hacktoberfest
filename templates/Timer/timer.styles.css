@@ -1,0 +1,101 @@
+.heading {
+  font-size: 50px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.timer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 60vw;
+  margin: 150px auto;
+}
+/* Display stylings */
+.box {
+  border: 3px solid orange;
+  width: 80px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10%;
+  margin-right: 3px;
+}
+/* Input blocks. */
+.time-input-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+}
+.time-input-block p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.time-input {
+  background-color: black;
+  border: 3px solid white;
+  color: white;
+  border-radius: 10%;
+  height: 200%;
+  text-align: center;
+  font-size: 30px;
+  width: 130px;
+  margin: 0 15px;
+}
+.time-input:focus {
+  border-color: orange;
+}
+.time-input::-webkit-input-placeholder {
+  color: white;
+}
+.time-input:-ms-input-placeholder {
+  color: white;
+}
+.time-input::placeholder {
+  color: white;
+}
+.time-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 70%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 70px auto 0 auto;
+}
+/* Buttons */
+.btn-time {
+  border: 3px solid white;
+  padding: 10px 35px;
+  margin: 0 15px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 20px;
+}
+.btn-time:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.btn-timer-start:hover {
+  border-color: rgb(25, 255, 25);
+  color: rgb(25, 255, 25);
+}
+.btn-timer-pause:hover {
+  border-color: orange;
+  color: orange;
+}
