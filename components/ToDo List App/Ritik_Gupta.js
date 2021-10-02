@@ -29,7 +29,7 @@ function addnotes() {
   shownotes();
 }
 
-//This will shoe the task added
+//This will show the task added
 function shownotes() {
   let notes = localStorage.getItem("notes");
   let addtitle = document.getElementById("addTitle");
