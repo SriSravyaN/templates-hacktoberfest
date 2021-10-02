@@ -33,11 +33,14 @@ Before starting, download [here](https://desktop.github.com/)
 
 7. Commit: Commit the changes that you have done to the branch.
 
+![image](https://user-images.githubusercontent.com/70380794/135709195-9bc8167c-a1ea-4caa-974e-2104f7f83400.png)
 
 
 8. Publish branch: This will push the changes you made to github and update your branch. 
 
+![image](https://user-images.githubusercontent.com/70380794/135709199-e65c2edc-f385-4ba9-9b92-5d69377d39aa.png)
 
 
 9. Pull Request: This will create a pull request to the main project and the maintainer can now see your changes.
 
+![image](https://user-images.githubusercontent.com/70380794/135709205-70715628-7eaa-4cae-9ef0-1e14cf2d3777.png)
