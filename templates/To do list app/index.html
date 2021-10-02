@@ -1,0 +1,119 @@
+<!-- HTML CODE
+Author: Kishor M Balgi -->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="To do list creator" />
+    <link rel="stylesheet" name="text/css" href="Vendors/CSS/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" name="text/css" href="Resources/CSS/styles.css" />
+    <link rel="stylesheet" name="text/css" href="Resources/CSS/queries.css" />
+
+    <title>To Do List</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Vendors/Favicons/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Vendors/Favicons/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Vendors/Favicons/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Vendors/Favicons/favicon_io/site.webmanifest" />
+  </head>
+  <body>
+    <main>
+      <!-- TITLE -->
+      <div><h1>To Do List.</h1></div>
+      <!-- TASK INPUT -->
+      <div class="task-input">
+        <label for="task"></label>
+        <input
+          name="task"
+          type="text"
+          id="task"
+          placeholder="Enter your task here"
+        />
+        <!-- ADD TASK BUTTON -->
+        <button class="add-me animate__animated" title="Add task">
+          Add me
+        </button>
+      </div>
+      <!-- TASK DISPLAY CONTAINER -->
+      <div class="task-display"></div>
+      <!-- CLEAR TASKS BUTTON -->
+      <button class="clear" title="Clear tasks">Clear tasks</button>
+      <!-- PROFILE -->
+      <div class="profile">
+        <div class="details">
+          <img
+            src="Resources/Images/Kishor_Balgi.jpg"
+            alt="Photo"
+            class="photo"
+          />
+          <h2>Kishor Balgi</h2>
+        </div>
+        <!-- SOCIAL HANDLES -->
+        <div class="social-handles">
+          <ul>
+            <!-- GITHUB -->
+            <li>
+              <a href="https://github.com/KishorBalgi" target="_blank"
+                ><ion-icon name="logo-github" class="github"></ion-icon
+              ></a>
+            </li>
+            <!-- LINKDIN -->
+            <li>
+              <a
+                href="https://www.linkedin.com/in/kishor-balgi-1856591b4"
+                target="_blank"
+                ><ion-icon name="logo-linkedin" class="linkedin"></ion-icon
+              ></a>
+            </li>
+            <!-- INSTAGRAM -->
+            <li>
+              <a href="https://www.instagram.com/kishor_balgi/" target="_blank"
+                ><ion-icon name="logo-instagram" class="instagram"></ion-icon
+              ></a>
+            </li>
+            <!-- TWITTER -->
+            <li>
+              <a href="https://twitter.com/KishorBalgi" target="_blank"
+                ><ion-icon name="logo-twitter" class="twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- JAVASCRIPT LINKING -->
+    <script src="Resources/JS/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

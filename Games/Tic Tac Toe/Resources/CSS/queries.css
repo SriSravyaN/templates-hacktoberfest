@@ -1,0 +1,70 @@
+@media only screen and (max-width: 900px){
+    .profile{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .details{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    h1{margin-left: 0;}
+    .social-handles ul{
+        margin: 70px 0;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .modal{
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 565px){
+    .modal{
+        font-size: 55%;
+    }
+    .tile{
+        font-size: 195%;
+        width: 120px;
+        height: 120px;
+    }
+    .active-tile{
+        font-size: 165%;
+        width:90px;
+        height:90px;
+    }
+    .active-bar{
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 565px){
+    .modal{
+        font-size: 45%;
+    }
+    .tile{
+        font-size: 140%;
+        width: 100px;
+        height: 100px;
+    }
+    .close{font-size: 35px;}
+    .active-tile{
+        font-size: 110%;
+        width:80px;
+        height:80px;
+    }
+    .active-bar{
+        width: 200px;
+    }
+}
