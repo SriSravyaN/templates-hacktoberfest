@@ -1,0 +1,92 @@
+/* jQuery Code*/
+/*Author: Kishor M Balgi */
+@media only screen and (max-width: 1270px) {
+  main {
+    width: 1000px;
+  }
+  .profile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  h2 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .social-handles ul {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  main {
+    width: 800px;
+  }
+  h1 {
+    margin-left: 30px;
+  }
+  .add-me {
+    width: 15%;
+  }
+  #task[type="text"] {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  html,
+  body {
+    font-size: 20px;
+  }
+  main {
+    width: 600px;
+  }
+  .clear {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+  main {
+    width: 500px;
+  }
+  .add-me {
+    height: 40px;
+  }
+  #task[type="text"] {
+    height: 40px;
+  }
+  .check,
+  .delete {
+    font-size: 20px;
+  }
+  .options {
+    width: 15%;
+  }
+  .social-handles ul {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  main {
+    width: 450px;
+  }
+}
