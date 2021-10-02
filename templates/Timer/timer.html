@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="timer.styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="timer-block">
+      <!-------------------------------------------------------------------------------------------------------------------------------->
+      <!-- Timer heading -->
+      <h1 class="heading">Timer</h1>
+      <!-------------------------------------------------------------------------------------------------------------------------------->
+      <!-- Timer input -->
+      <form>
+        <div class="time-input-block">
+          <input
+            class="time-input timer-hours-input"
+            maxlength="2"
+            name="hours"
+            placeholder="0"
+          />
+          <p>Hours</p>
+          <input
+            class="time-input timer-minutes-input"
+            maxlength="2"
+            name="minutes"
+            placeholder="0"
+          />
+          <p>Mins</p>
+          <input
+            class="time-input timer-seconds-input"
+            maxlength="2"
+            name="seconds"
+            placeholder="0"
+          />
+          <p>Secs</p>
+        </div>
+      </form>
+      <!-------------------------------------------------------------------------------------------------------------------------------->
+      <!-- Timer options -->
+      <div class="time-options">
+        <button class="btn-time btn-timer-start">Start</button>
+        <button class="btn-time btn-timer-pause" onclick="pauseResume()">
+          Pause
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="timer.js"></script>
+</html>
