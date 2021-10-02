@@ -1,0 +1,107 @@
+/* css reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(255, 198, 188);
+}
+
+/* set font-size to root element */
+
+html {
+    font-size: 62.5%;
+}
+
+/* main container styling */
+
+#container {
+    width: 50rem;
+    height: 60rem;
+    background-color: #FDB750;
+    box-shadow: 1px 1px 12px 1px rgb(192 192 192);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 8rem;
+}
+
+/* heading styling */
+
+h1 {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+/* timer div */
+
+#timer {
+    background-color: tomato;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5.7rem;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+/* show div */
+
+#show {
+    width: fit-content;
+    height: fit-content;
+    background-color: #FDB750;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+/* set section */
+
+#set {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 22%;
+}
+
+/* buttons */
+
+#buttons {
+    display: flex;
+}
+
+.button {
+    display: block;
+    line-height: 3rem;
+    width: 12rem;
+    height: 100%;
+    font-size: 3.2rem;
+    color: black;
+    background-color: rgb(255, 96, 75);
+    margin: auto;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#start {
+    margin-right: 1rem;
+}
+
+#reset {
+    margin-left: 1rem;
+}
+
+#pause {
+    margin-left: 1rem;
+}
