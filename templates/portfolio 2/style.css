@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+ }
+ ::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgb(255, 255, 255);
+ }
+ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(83, 221, 221, 0.692);
+ }
+
+
+
+.nav{
+    display: flex;
+    background-color: rgba(0, 60, 255, 0.527);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.nav-left{
+    width: 50%;
+    margin-left: 15px;
+}
+
+.nav-right{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.body{
+    background-color: rgba(0, 60, 255, 0.137);
+    display: flex;
+    height: 94vh;
+}
+
+.body-text{
+    width: 80%;
+}
+
+.body-links{
+    /* width: 20%; */
+    margin-left: 20px;
+    padding-top: 250px;
+    /* cursor: pointer; */
+}
+
+.body-link{
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+    /* cursor: pointer; */
+    color: white;
+}
+
+.body-text{
+    padding-top: 200px;
+    margin-left: 50px;
+}
+
+.body-text-line-1{
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(255, 0, 43);
+}
+.pink{
+    color: rgb(180, 16, 43);
+    font-weight: 600;
+    font-size: 36px;
+}
+.body-text-line-2{
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(238, 34, 211);
+    z-index: 999;
+}
+
+.box-1{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: -350px;
+    left: 200px;
+    background-color: rgba(255, 0, 0, 0.473);
+    transform: rotate(30deg);
+    /* z-index: -9999; */
+}
+
+.box-2{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 166, 0, 0.329);
+    transform: rotate(-67deg);
+    position: relative;
+    top: -390px;
+    left: 350px;
+    /* z-index: -9999; */
+}
+
+.box-3{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 255, 234, 0.329);
+    transform: rotate(70deg);
+    position: relative;
+    top: -700px;
+    left: 50px;
+    /* z-index: -9999; */
+}
+
+.lin:hover{
+    color: #0072b1;
+}
+
+.int:hover {
+    color: #8a3ab9;
+    /* background-color: red; */
+}
+
+.git:hover{
+    color: #333;
+}
+
+.fab {
+    font-size: 30px;
+    /* background-color: red; */
+}
+
+
+@media (max-width: 800px) {
+    .body-text-line-1{
+        font-size: 22px;
+    }
+
+    .box-1{
+        height: 200px;
+        width: 200px;
+    }
+    .box-2{
+        height: 260px;
+        width: 260px;
+        transform: rotate(55deg);
+        left: 250px;
+    }
+    .box-3{
+        height: 220px;
+        width: 220px;
+        top: -600px;
+    }
+}
+
+@media (max-width: 400px) {
+    .body-text-line-1{
+        font-size: 22px;
+    }
+
+    .body-text-line-2{
+        font-size: 16px;
+    }
+
+    .body-text-line-1{
+        font-size: 18px;
+    }
+
+    .faba{
+        font-size: 20px;
+    }
+
+    .box-1{
+        height: 100px;
+        width: 100px;
+        left: 20px;
+    }
+    .box-2{
+        height: 160px;
+        width: 160px;
+        transform: rotate(55deg);
+        left: 50px;
+    }
+    .box-3{
+        height: 120px;
+        width: 120px;
+        top: -400px;
+        left: -10px;
+        transform: rotate(75deg);
+    }
+}
+
+.skills h2 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #5ccceb;
+}
+
+.skills-logo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.skills-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.faba-2{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-node-js{
+    color: #68a063;
+}
+
+.fa-react{
+    color: #7cc5d9;
+}
+
+.fa-html5{
+    color: #FF5733;
+}
+
+.fa-css3-alt{
+    color: rgba(70, 50, 156, 0.829);
+}
+
+.fa-js{
+    color: #F0DB4F;
+}
+
+.fa-database{
+    color: #3FA037;
+    font-size: 24px;
+}
+
+.fa-git-alt{
+    color: #f34f29;
+}
+
+.fa-github-2{
+    color: #333;
+}
+
+.skills {
+    background-color: rgba(255, 255, 0, 0.096);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.projects {
+    background-color: #55ff3321;
+}
+
+.projects h2{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.project-view-1 img{
+    width: 170px;
+    object-fit: contain;
+    border: 4px solid rgb(77, 226, 152);
+}
+
+.project-view{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.project-view-1 a {
+    text-decoration: none;
+    color: #FF5733;
+    font-size: 14px;
+}
+
+.project-end{
+    padding-bottom: 50px;
+}
+
+.email-tag{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(153, 205, 50, 0.199);
+}
+
+.email-tag h3{
+    text-align: center;
+    color: teal;
+}
+
+.email-tag button a {
+    text-decoration: none;
+    color: white;
+}
+
+.email-tag button {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 128, 128, 0.575);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
