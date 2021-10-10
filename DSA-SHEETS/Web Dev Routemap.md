@@ -31,13 +31,13 @@ As javascript is growing and evolving rapidly likewise new tools are getting pop
 As Backend Developers control the logic and flow of the websites they must know some programming languages and query languages to control them.
 
 ### Programming Languages for Backend Developers:
--SQL
--Mongodb
--PHP
--Python
--NodeJS
--C#(ASP)
--Ruby
+- SQL
+- Mongodb
+- PHP
+- Python
+- NodeJS
+- C#(ASP)
+- Ruby
 
 ## Routemap for Fullstack Developers:
 Full Stack Developers are those who manage both frontend and backend. Not only that, they are also good in problem solving and they create scalable, fast and maintainable solutions for big projects.
