@@ -14,7 +14,7 @@ As a Frontend Developer these 3 languages are your weapon. Master these and you 
 
 But as the technology grow new tool comes out to stay updated. Likewise Frontend Development is also coming up with new tools that are a must for you to learn as a frontend developer.
 
-#### Libraries/tools/skills For Frontend Developers:
+### Libraries/tools/skills For Frontend Developers:
 As javascript is growing and evolving rapidly likewise new tools are getting popular. These are most common and popular libraries and tools for Frontend Developers:
 -Bootstrap / Material Design
 -React.JS & React Native
@@ -30,7 +30,7 @@ As javascript is growing and evolving rapidly likewise new tools are getting pop
 ## Routemap for Backend Developers:
 As Backend Developers control the logic and flow of the websites they must know some programming languages and query languages to control them.
 
-#### Programming Languages for Backend Developers:
+### Programming Languages for Backend Developers:
 -SQL
 -Mongodb
 -PHP
@@ -43,7 +43,7 @@ As Backend Developers control the logic and flow of the websites they must know 
 Full Stack Developers are those who manage both frontend and backend. Not only that, they are also good in problem solving and they create scalable, fast and maintainable solutions for big projects.
 They maintain everything from creation to deployment.
 
-#### Most Popular Tech Stacks Are:
+### Most Popular Tech Stacks Are:
 
 - Django stack: JavaScript - Python - Django - MySQL(That is my personal favorite)
 - MERN stack: JavaScript - MongoDB - Express - ReactJS - Node.js
